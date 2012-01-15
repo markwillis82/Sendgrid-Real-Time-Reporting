@@ -1,0 +1,26 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(type="text/javascript", src="/socket.io/socket.io.js")
+    script(type="text/javascript", src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js")
+    script(type='text/javascript', src="/javascripts/highChart/highcharts.js")
+    script(type='text/javascript', src="/javascripts/trafficChart.js")
+    script(type='text/javascript', src="/javascripts/sockets.js")
+  body
+    div 
+      h1 Welcome to the sendgrid Real Time email reporting
+    div(class="container-fluid")
+      div(class="sidebar")
+        h1 Navaigation
+        ul
+          li dashboard
+          li track opens
+          li track links
+          li track processed
+          li track delivered
+          li track spams
+      div(class="content")
+        != body

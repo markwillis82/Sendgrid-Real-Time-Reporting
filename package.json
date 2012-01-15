@@ -1,0 +1,11 @@
+{
+    "name": "sendgrid real time reporting"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.4"
+    , "jade": ">= 0.0.1"
+    , "socket.io": "*"
+    , "db-mysql": "*"
+  }
+}
