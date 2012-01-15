@@ -23,10 +23,10 @@ var staticData = (function() {
          })();
 
 var trafficData = [];
-var startTime = (new Date()).getTime();
+var startTime = new Date();
 startTime.setSeconds(0,0);
 
-trafficData.push({x : startTime, y : 1});
+trafficData.push({x : startTime.getTime(), y : 1});
 console.log(trafficData);
 
 $(document).ready(function() {
