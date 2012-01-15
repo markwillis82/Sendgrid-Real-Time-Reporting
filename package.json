@@ -1,5 +1,5 @@
 {
-    "name": "sendgrid real time reporting"
+    "name": "sendgrid-real-time-reporting"
   , "version": "0.0.1"
   , "private": true
   , "dependencies": {
