@@ -49,7 +49,7 @@ $(document).ready(function() {
          }
       },
       title: {
-         text: 'Live random data'
+         text: 'Total Event API Throughput'
       },
       xAxis: {
          type: 'datetime',
@@ -78,7 +78,7 @@ $(document).ready(function() {
          enabled: false
       },
       series: [{
-         name: 'Random data',
+         name: 'All Event Types',
          data: trafficData
       }]
    });
